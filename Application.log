@@ -1,0 +1,33 @@
+2019-01-27 19:15:10.271  INFO 13046 --- [main] com.example.msf.demo.DemoApplication     : Starting DemoApplication on revanth-HP-Notebook with PID 13046 (/home/revanth/Documents/Interview/demo/target/classes started by revanth in /home/revanth/Documents/Interview/demo)
+2019-01-27 19:15:10.277  INFO 13046 --- [main] com.example.msf.demo.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-01-27 19:15:11.439  INFO 13046 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-27 19:15:11.499  INFO 13046 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2019-01-27 19:15:12.214  INFO 13046 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-27 19:15:12.247  INFO 13046 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-27 19:15:12.248  INFO 13046 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-27 19:15:12.261  INFO 13046 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-27 19:15:12.388  INFO 13046 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-27 19:15:12.389  INFO 13046 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2038 ms
+2019-01-27 19:15:12.859  INFO 13046 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-01-27 19:15:12.859  INFO 13046 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-01-27 19:15:12.950  INFO 13046 --- [cluster-ClusterId{value='5c4db5e80ded3832f67548d7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2019-01-27 19:15:12.959  INFO 13046 --- [cluster-ClusterId{value='5c4db5e80ded3832f67548d7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 5]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4395337}
+2019-01-27 19:15:12.960  INFO 13046 --- [cluster-ClusterId{value='5c4db5e80ded3832f67548d7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-01-27 19:15:13.178  WARN 13046 --- [main] o.s.d.m.c.m.BasicMongoPersistentProperty : Customizing field name for id property not allowed! Custom name will not be considered!
+2019-01-27 19:15:13.726  INFO 13046 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-27 19:15:13.925  INFO 13046 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-27 19:15:14.149  INFO 13046 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-01-27 19:15:14.178  INFO 13046 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-01-27 19:15:14.214  INFO 13046 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-01-27 19:15:14.361  INFO 13046 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-27 19:15:14.364  INFO 13046 --- [main] com.example.msf.demo.DemoApplication     : Started DemoApplication in 4.561 seconds (JVM running for 4.912)
+2019-01-27 19:15:32.437  INFO 13046 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-27 19:15:32.438  INFO 13046 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-27 19:15:32.450  INFO 13046 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-01-27 19:15:32.522  INFO 13046 --- [http-nio-8080-exec-1] c.e.msf.demo.controller.LoginController  : aaaaaaaa
+2019-01-27 19:15:32.522  INFO 13046 --- [http-nio-8080-exec-1] c.e.msf.demo.controller.LoginController  : com.example.msf.demo.model.Login@5f508379
+2019-01-27 19:15:32.625  INFO 13046 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:32}] to localhost:27017
+2019-01-27 19:16:03.257  INFO 13046 --- [http-nio-8080-exec-2] c.e.msf.demo.controller.LoginController  : aaaaaaaa
+2019-01-27 19:16:03.258  INFO 13046 --- [http-nio-8080-exec-2] c.e.msf.demo.controller.LoginController  : com.example.msf.demo.model.Login@ea87fea
+2019-01-27 19:19:27.851  INFO 13046 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-27 19:19:27.858  INFO 13046 --- [Thread-3] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:32}] to localhost:27017 because the pool has been closed.
